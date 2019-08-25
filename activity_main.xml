@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE8EE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="652dp"
+        android:background="@color/screenBackground"
+        android:lineSpacingExtra="10sp"
+        android:onClick="gandalfMe"
+        android:text="Let's Break it Down!"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:fontFamily="@font/josefin_sans_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/savingsbutton"
+        android:layout_width="411dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="566dp"
+        android:background="@color/savings"
+        android:onClick="teetersMe"
+        android:text="Savings $0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/billsbutton"
+        android:layout_width="411dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginBottom="494dp"
+        android:onClick="teetersMe"
+        android:text="Bills/Expenses $0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/foodbutton"
+        android:layout_width="411dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="429dp"
+        android:onClick="teetersMe"
+        android:text="Food $0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subsbutton"
+        android:layout_width="411dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginBottom="364dp"
+        android:onClick="teetersMe"
+        android:text="Subscriptions $0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/miscbutton"
+        android:layout_width="411dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginBottom="299dp"
+        android:onClick="teetersMe"
+        android:text="Miscellaneous $0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/spent"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="451dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="232dp"
+        android:background="@color/screenBackground"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="10sp"
+        android:singleLine="false"
+        android:text=""
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="280dp"
+        android:text="Enter Expense then Select Category"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
